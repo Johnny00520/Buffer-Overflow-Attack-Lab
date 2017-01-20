@@ -1,0 +1,39 @@
+0000000000401b33 <start_farm>:
+  401b33:	b8 01 00 00 00       	mov    $0x1,%eax
+  401b38:	c3                   	retq   
+
+0000000000401b39 <addval_219>:
+  401b39:	8d 87 48 89 c7 c3    	lea    -0x3c3876b8(%rdi),%eax
+  401b3f:	c3                   	retq   
+
+0000000000401b40 <addval_162>:
+  401b40:	8d 87 40 89 c7 c3    	lea    -0x3c3876c0(%rdi),%eax
+  401b46:	c3                   	retq   
+
+0000000000401b47 <getval_145>:
+  401b47:	b8 95 24 58 c3       	mov    $0xc3582495,%eax
+  401b4c:	c3                   	retq   
+
+0000000000401b4d <setval_159>:
+  401b4d:	c7 07 48 89 c7 c2    	movl   $0xc2c78948,(%rdi)
+  401b53:	c3                   	retq   
+
+0000000000401b54 <addval_349>:
+  401b54:	8d 87 48 89 c7 c3    	lea    -0x3c3876b8(%rdi),%eax
+  401b5a:	c3                   	retq   
+
+0000000000401b5b <getval_499>:
+  401b5b:	b8 58 da 58 90       	mov    $0x9058da58,%eax
+  401b60:	c3                   	retq   
+
+0000000000401b61 <setval_128>:
+  401b61:	c7 07 48 90 90 c3    	movl   $0xc3909048,(%rdi)
+  401b67:	c3                   	retq   
+
+0000000000401b68 <setval_324>:
+  401b68:	c7 07 58 92 90 c3    	movl   $0xc3909258,(%rdi)
+  401b6e:	c3                   	retq   
+
+0000000000401b6f <mid_farm>:
+  401b6f:	b8 01 00 00 00       	mov    $0x1,%eax
+  401b74:	c3 
